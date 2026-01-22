@@ -15,6 +15,4 @@ seaborn
 streamlit
 folium
 streamlit-folium
-
-# Dynamic Path Management
-os
+altair<5
