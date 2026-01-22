@@ -41,7 +41,7 @@ with col1:
     folium.Marker([40.7580, -73.9855], popup="Times Square", icon=folium.Icon(color="red")).add_to(m)
     folium.Marker([40.7060, -74.0088], popup="Wall Street", icon=folium.Icon(color="blue")).add_to(m)
 
-    map_output = st_folium(m, height=400, width=500)
+    map_output = st_folium(m, height=400, width=500, returned_objects=[])
     
     selected_lat = 40.7128
     selected_lon = -74.0060
