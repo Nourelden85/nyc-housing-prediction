@@ -1,0 +1,20 @@
+# Data Manipulation
+pandas
+numpy
+
+# Machine Learning & Preprocessing
+scikit-learn
+joblib
+category_encoders
+
+# Data Visualization (For Notebooks & Reports)
+matplotlib
+seaborn
+
+# Deployment & Interactive Maps
+streamlit
+folium
+streamlit-folium
+
+# Dynamic Path Management
+os
