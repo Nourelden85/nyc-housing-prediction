@@ -14,11 +14,11 @@ An end-to-end Machine Learning solution designed to estimate real estate prices 
 - **Error Metric (MAPE):** 28% Mean Absolute Percentage Error.
 - **Model Validation on Real-World Data (Zillow Test Cases):**
 
-| Locality      | Property Type | Zip Code | Coordinates (Lat, Long) | Sqft  | Actual Price (Zillow) | Model Prediction | Accuracy |
-| :------------ | :------------ | :------- | :---------------------- | :---- | :-------------------- | :--------------- | :------- |
-| **Manhattan** | Condo         | 10021    | 40.7661, -73.9641       | 2,200 | \$3,850,000           | \$3,371,963      | 87.5%    |
-| **Brooklyn**  | Townhouse     | 11211    | 40.7105, -73.9625       | 1,150 | \$1,250,000           | \$1,271,603      | 98.3%    |
-| **Queens**    | Multi-family  | 11103    | 40.7668, -73.9161       | 950   | \$875,000             | \$600,413        | 68.6%    |
+| Locality      | Property Type | Zip Code | Coordinates (Lat, Long) | Sqft  | Baths | Beds | Actual Price (Zillow) | Model Prediction | Accuracy |
+| :------------ | :------------ | :------- | :---------------------- | :---- | :---- | :--- | :-------------------- | :--------------- | :------- |
+| **Manhattan** | Condo         | 10021    | 40.7661, -73.9641       | 2,200 | 3     | 3    | \$3,850,000           | \$3,371,963      | 87.5%    |
+| **Brooklyn**  | Townhouse     | 11211    | 40.7105, -73.9625       | 1,150 | 2     | 2    | \$1,250,000           | \$1,271,603      | 98.3%    |
+| **Queens**    | Multi-family  | 11103    | 40.7668, -73.9161       | 950   | 1     | 2    | \$875,000             | \$600,413        | 68.6%    |
 
 ## Technical Highlights
 
@@ -50,11 +50,11 @@ An end-to-end Machine Learning solution designed to estimate real estate prices 
 
 ## Installation & Usage
 
-1. Clone the repo
+1. Clone the repo ->
    git clone [https://github.com/Nourelden85/nyc-housing-prediction.git](https://github.com/Nourelden85/nyc-housing-prediction.git)
 
-2. Install dependencies
+2. Install dependencies ->
    pip install -r requirements.txt
 
-3. Run the App
+3. Run the App ->
    streamlit run app.py
